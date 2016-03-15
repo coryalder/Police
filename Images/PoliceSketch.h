@@ -8,25 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "LPSBodyPart.h"
 
 @interface PoliceSketch : NSObject
 
-@property (nonatomic) NSArray *eyesArray;
-@property (nonatomic) NSArray *noseArray;
-@property (nonatomic) NSArray *mouthArray;
+@property (nonatomic, strong) LPSBodyPart *eyes;
+@property (nonatomic, strong) LPSBodyPart *nose;
+@property (nonatomic, strong) LPSBodyPart *mouth;
 
--(instancetype)init;
-
--(UIImage*)moveEyesRight:(UIImage*)currentEyes;
-
--(UIImage*)moveEyesLeft:(UIImage*)currentEyes;
-
--(UIImage*)moveNoseRight:(UIImage*)currentNose;
-
--(UIImage*)moveNoseLeft:(UIImage*)currentNose;
-
--(UIImage*)moveMouthRight:(UIImage*)currentMouth;
-
--(UIImage*)moveMouthLeft:(UIImage*)currentMouth;
 
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "LPSViewController.h"
+#import "PoliceSketch.h"
 
 @interface LPSViewController ()
 
@@ -25,9 +26,8 @@
     [super viewDidLoad];
 	
     self.sketch = [PoliceSketch new];
-    [self displayEyes:[UIImage imageNamed:@"eyes_1.jpg"]];
-    [self displayNose:[UIImage imageNamed:@"nose_1.jpg"]];
-    [self displayMouth:[UIImage imageNamed:@"mouth_1.jpg"]];
+    
+    [self updateFace];
 }
 
 - (void)displayEyes:(UIImage*)image {
@@ -43,27 +43,40 @@
 }
 
 - (IBAction)eyesRight:(id)sender {
-    [self displayEyes:[self.sketch moveEyesRight:self.eyes.image]];
+    [self.sketch.eyes nextPart];
+    [self updateFace];
+}
+
+
+-(void)updateFace {
+    [self displayEyes:[self.sketch.eyes currentImage]];
+    [self displayMouth:[self.sketch.mouth currentImage]];
+    [self displayNose:[self.sketch.nose currentImage]];
 }
 
 - (IBAction)eyesLeft:(id)sender {
-    [self displayEyes:[self.sketch moveEyesLeft:self.eyes.image]];
+    [self.sketch.eyes previousPart];
+    [self updateFace];
 }
 
 - (IBAction)noseRight:(id)sender {
-    [self displayNose:[self.sketch moveNoseRight:self.nose.image]];
+    [self.sketch.nose nextPart];
+    [self updateFace];
 }
 
 - (IBAction)noseLeft:(id)sender {
-    [self displayNose:[self.sketch moveNoseLeft:self.nose.image]];
+    [self.sketch.nose previousPart];
+    [self updateFace];
 }
 
 - (IBAction)mouthRight:(id)sender {
-    [self displayMouth:[self.sketch moveMouthRight:self.mouth.image]];
+    [self.sketch.mouth nextPart];
+    [self updateFace];
 }
 
 - (IBAction)mouthLeft:(id)sender {
-    [self displayMouth:[self.sketch moveMouthLeft:self.mouth.image]];
+    [self.sketch.mouth previousPart];
+    [self updateFace];
 }
 
 @end

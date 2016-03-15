@@ -19,6 +19,7 @@
 		60D60731197C369000A4DE1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60730197C369000A4DE1D /* XCTest.framework */; };
 		60D60732197C369000A4DE1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60711197C369000A4DE1D /* Foundation.framework */; };
 		60D60733197C369000A4DE1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D60715197C369000A4DE1D /* UIKit.framework */; };
+		8BA0663A1C978D8F00D4B670 /* LPSBodyPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA066391C978D8F00D4B670 /* LPSBodyPart.m */; };
 		AF23D7FB19DCB73A0049AD5E /* arrow_left.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7EA19DCB73A0049AD5E /* arrow_left.jpg */; };
 		AF23D7FC19DCB73A0049AD5E /* arrow_right.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7EB19DCB73A0049AD5E /* arrow_right.jpg */; };
 		AF23D7FD19DCB73A0049AD5E /* eyes_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7EC19DCB73A0049AD5E /* eyes_1.jpg */; };
@@ -66,6 +67,8 @@
 		60D60729197C369000A4DE1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60D6072F197C369000A4DE1D /* PoliceSketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliceSketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D60730197C369000A4DE1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8BA066381C978D8F00D4B670 /* LPSBodyPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSBodyPart.h; sourceTree = "<group>"; };
+		8BA066391C978D8F00D4B670 /* LPSBodyPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSBodyPart.m; sourceTree = "<group>"; };
 		AF23D7EA19DCB73A0049AD5E /* arrow_left.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_left.jpg; sourceTree = "<group>"; };
 		AF23D7EB19DCB73A0049AD5E /* arrow_right.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arrow_right.jpg; sourceTree = "<group>"; };
 		AF23D7EC19DCB73A0049AD5E /* eyes_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyes_1.jpg; sourceTree = "<group>"; };
@@ -149,6 +152,8 @@
 				60D60723197C369000A4DE1D /* Main.storyboard */,
 				60D60726197C369000A4DE1D /* LPSViewController.h */,
 				60D60727197C369000A4DE1D /* LPSViewController.m */,
+				8BA066381C978D8F00D4B670 /* LPSBodyPart.h */,
+				8BA066391C978D8F00D4B670 /* LPSBodyPart.m */,
 				E5E46A801C97349100BE4E17 /* PoliceSketch.h */,
 				E5E46A811C97349100BE4E17 /* PoliceSketch.m */,
 				60D60729197C369000A4DE1D /* Images.xcassets */,
@@ -308,6 +313,7 @@
 			files = (
 				60D60722197C369000A4DE1D /* LPSAppDelegate.m in Sources */,
 				60D6071E197C369000A4DE1D /* main.m in Sources */,
+				8BA0663A1C978D8F00D4B670 /* LPSBodyPart.m in Sources */,
 				60D60728197C369000A4DE1D /* LPSViewController.m in Sources */,
 				E5E46A821C97349100BE4E17 /* PoliceSketch.m in Sources */,
 			);
