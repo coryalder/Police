@@ -36,6 +36,7 @@
 		AF23D80919DCB73A0049AD5E /* nose_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7F819DCB73A0049AD5E /* nose_3.jpg */; };
 		AF23D80A19DCB73A0049AD5E /* nose_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7F919DCB73A0049AD5E /* nose_4.jpg */; };
 		AF23D80B19DCB73A0049AD5E /* nose_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AF23D7FA19DCB73A0049AD5E /* nose_5.jpg */; };
+		E5E46A821C97349100BE4E17 /* PoliceSketch.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E46A811C97349100BE4E17 /* PoliceSketch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		AF23D7F819DCB73A0049AD5E /* nose_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_3.jpg; sourceTree = "<group>"; };
 		AF23D7F919DCB73A0049AD5E /* nose_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_4.jpg; sourceTree = "<group>"; };
 		AF23D7FA19DCB73A0049AD5E /* nose_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nose_5.jpg; sourceTree = "<group>"; };
+		E5E46A801C97349100BE4E17 /* PoliceSketch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PoliceSketch.h; path = ../Images/PoliceSketch.h; sourceTree = "<group>"; };
+		E5E46A811C97349100BE4E17 /* PoliceSketch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PoliceSketch.m; path = ../Images/PoliceSketch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				60D60723197C369000A4DE1D /* Main.storyboard */,
 				60D60726197C369000A4DE1D /* LPSViewController.h */,
 				60D60727197C369000A4DE1D /* LPSViewController.m */,
+				E5E46A801C97349100BE4E17 /* PoliceSketch.h */,
+				E5E46A811C97349100BE4E17 /* PoliceSketch.m */,
 				60D60729197C369000A4DE1D /* Images.xcassets */,
 				60D60718197C369000A4DE1D /* Supporting Files */,
 			);
@@ -304,6 +309,7 @@
 				60D60722197C369000A4DE1D /* LPSAppDelegate.m in Sources */,
 				60D6071E197C369000A4DE1D /* main.m in Sources */,
 				60D60728197C369000A4DE1D /* LPSViewController.m in Sources */,
+				E5E46A821C97349100BE4E17 /* PoliceSketch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

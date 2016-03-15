@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PoliceSketch.h"
 
 @interface LPSViewController : UIViewController
+
+- (void)displayEyes:(UIImage*)image;
+
+- (void)displayNose:(UIImage*)image;
+
+- (void)displayMouth:(UIImage*)image;
 
 @end
